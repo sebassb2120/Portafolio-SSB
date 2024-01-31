@@ -6,8 +6,8 @@ export function About() {
   return (
     <>
       <section id="about">
-        <h5>Get To Know</h5>
-        <h2>About Me</h2>
+        <h5>Conoce</h5>
+        <h2>Sobre Mi </h2>
 
         <div className="container about_container">
           <div className="about_me">
@@ -20,29 +20,30 @@ export function About() {
             <div className="about_cards">
               <article className="about_card">
                 <i class="bi bi-award"></i>
-                <h5>Experience</h5>
-                <small>currently studying</small>
+                <h5>Experiencia</h5>
+                <small>Tecnico asistente Desarrolo de Software </small>
               </article>
 
               <article className="about_card">
                 <i class="bi bi-folder"></i>
-                <h5>Proyects</h5>
+                <h5>Proyectos</h5>
                 <a href="#portafolio">---</a>
               </article>
             </div>
 
             <p>
-              Soy una persona responsable, puntual, creativa y con muy buena
-              disposición para cualquier tarea que se me asigne. Demostrar mis
-              capacidades, al interior de la empresa en la que pueda crecer a
-              futuro tanto a nivel personal como profesional.
+              Técnico asistente en desarrollo de software con 6 meses de
+              experiencia, especializado en la automatización de procesos
+              diarios en el área de cajeros para el grupo Bancolombia. Poseo
+              habilidades en programas de front-end y back-end. Actualmente, me
+              encuentro realizando una certificación en diseño UX/UI.
             </p>
 
             <a href="#contact" className="btn btn-primay">
-              Let's Talk
+              Contactame
             </a>
           </div>
-        </div>
+        </div>                
       </section>
     </>
   );

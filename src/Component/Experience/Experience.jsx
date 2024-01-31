@@ -5,8 +5,8 @@ export function Experience() {
   return (
     <>
       <section id="experience">
-        <h5>My Skills</h5>
-        <h2>My experience</h2>
+        <h5>Mis Habilidades </h5>
+        <h2>Mis Experiencias </h2>
       </section>
 
       <div className="container experience_container">
@@ -17,7 +17,7 @@ export function Experience() {
               <i class="bi bi-patch-check"></i>
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Intermedio</small>
               </div>
             </article>
 
@@ -25,7 +25,7 @@ export function Experience() {
               <i class="bi bi-patch-check"></i>
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Intermedio</small>
               </div>
             </article>
 
@@ -33,7 +33,7 @@ export function Experience() {
               <i class="bi bi-patch-check"></i>
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Intermedio</small>
               </div>
             </article>
 
@@ -41,7 +41,7 @@ export function Experience() {
               <i class="bi bi-patch-check"></i>
               <div>
                 <h4>Booststrap</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Intermedio</small>
               </div>
             </article>
 
@@ -49,7 +49,23 @@ export function Experience() {
               <i class="bi bi-patch-check"></i>
               <div>
                 <h4>React</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Intermedio</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <i class="bi bi-patch-check"></i>
+              <div>
+                <h4>Power Bi</h4>
+                <small className="text-light">Intermedio</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <i class="bi bi-patch-check"></i>
+              <div>
+                <h4>Power Apps</h4>
+                <small className="text-light">Intermedio</small>
               </div>
             </article>
           </div>
@@ -62,7 +78,7 @@ export function Experience() {
               <i class="bi bi-patch-check"></i>
               <div>
                 <h4>Phython</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Intermedio</small>
               </div>
             </article>
 
@@ -70,7 +86,7 @@ export function Experience() {
               <i className="bi bi-patch-check" ></i>
               <div>
                 <h4>MySQL</h4>
-                <small className="text-light">Basic</small>
+                <small className="text-light">Basico</small>
               </div>
             </article>
           </div>

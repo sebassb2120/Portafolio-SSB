@@ -16,8 +16,8 @@ export function Contacto(){
     return(
         <>
             <section id="contact">
-                <h5>Get In Touch</h5>
-                <h2>Contact Me</h2>
+                
+                <h2>Contáctame</h2>
 
                 <div className="container contact_container">
                     <div className="contact_options">
@@ -32,16 +32,11 @@ export function Contacto(){
                             <i class="bi bi-whatsapp"></i>
                             <h4>WhatsApp</h4>
                             <h5>+57 320-769-94-02</h5>
-                            <a href="https://api.whatsapp.com/send?phone+573207699402" target="_blank">send a message</a>
+                            <a href="https://api.whatsapp.com/send?phone=+573207699402&text=Hola%2C+Espero+est%C3%A9s+super+bien%21%21%21" target="_blank">send a message</a>
                         </article>
                     </div>
 
-                    <form ref={form} onSubmit={sendEmail}>
-                        <input type="text" name="name" placeholder="Your Full Name" required/>
-                        <input type="email" name="email" placeholder="Your Email" required/>
-                        <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
-                        <button type="submit" className="btn btn-primary">send message</button>
-                    </form>
+                    
                 </div>
             </section>
         </>
