@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import ME from "../../assets/img/yo-about.jpg";
+import ME from "../../assets/img/CV.pdf";
 
 export function About() {
   return (
