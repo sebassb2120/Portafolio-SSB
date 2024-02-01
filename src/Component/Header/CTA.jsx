@@ -1,5 +1,5 @@
 
- import cv from "../../assets/img/CV2.pdf"
+ import cv from "../../assets/img/CV3.pdf"
 
 export function CTA(){
     return(
